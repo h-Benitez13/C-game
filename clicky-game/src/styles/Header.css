@@ -1,0 +1,50 @@
+.header {
+    height: 800px;
+    text-align: center;
+    background-image: url("./images/wow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header h1 {
+    padding-top: 35px;
+    font-size: 72px;
+    font-family: myFirstFont;
+    font-weight: bold;
+    color: 	white;
+    text-shadow:
+    -1px -1px 0 #6DC379,
+    1px -1px 0 #6DC379,
+    -1px 1px 0 #6DC379,
+    1px 1px 0 #6DC379;
+}
+
+.header p {
+    font-size: 26px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #6DC379,
+    1px -1px 0 #6DC379,
+    -1px 1px 0 #6DC379,
+    1px 1px 0 #6DC379;
+}
+
+@media all and (max-width: 800px) { 
+    .header h1 {
+        padding-top: -40px;
+        font-size: 60px; 
+    }
+    .header p {
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width: 650px) { 
+    .header h1 {
+        font-size: 48px;
+    }
+    .header p {
+        font-size: 20px;
+    }
+}
